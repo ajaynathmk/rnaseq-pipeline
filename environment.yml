@@ -1,0 +1,11 @@
+name: rnaseq-pipeline
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - star=2.7.11b
+  - cutadapt=4.9
+  - samtools=1.21
+  - subread=2.0.6
+  - fastqc=0.12.1

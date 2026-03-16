@@ -1,0 +1,25 @@
+# Raw data - never commit these
+*.fastq.gz
+*.bam
+*.bai
+*.fa
+*.gtf
+*.tar
+*.sam
+
+# Pipeline outputs
+star_index/
+star_results/
+fastqc_results/
+fastqc_trimmed_data/
+trimmed_data/
+bio_project_auto/
+
+# Logs
+*.log
+*.out
+Log.final.out
+
+# System files
+.DS_Store
+__pycache__/
